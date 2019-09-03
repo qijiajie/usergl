@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+}
+#root,body,html{
+    width:100%;
+    height: 100%;
+}
+#root{
+    display: flex;
+}
+
+#root .left{
+    height:100%;
+    width:256px;
+    border-right: 1px solid #e8e8e8;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+    width:100%;
+    height:200px;
+}
+.header p{
+    width:100%;
+    height:130px;
+    text-align: center;
+    line-height: 130px;
+    margin:0;
+}
+.boody{
+    flex:1;
+}
+.bottom{
+    height:150px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.bottom p{
+    flex:1;
+    margin:0;
+    font-size:18px;
+    text-align: center;
+    line-height: 70px;
+}
+.bottom p span{
+    margin-bottom: 10px;
+}
+.bottom p i {
+    font-size:25px;
+    line-height: 50px;
+}
+
+
+
+
+#root .right{
+    flex:1;
+}
+.right .Rheight{
+       line-height:60px;
+       height:60px;
+       border-bottom: 1px solid #EBEBEB;
+}
+
+
